@@ -1,12 +1,15 @@
 # ⚡ AI-Powered Smart Energy Forecasting & Consumption Analytics System
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
-![XGBoost](https://img.shields.io/badge/XGBoost-AI-orange)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
-🔗 GitHub Repository:
-https://github.com/vyawaha/ai-energy-consumption-forecasting-system.git
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge\&logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-brightgreen?style=for-the-badge\&logo=scikitlearn)
+![XGBoost](https://img.shields.io/badge/XGBoost-AI-orange?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-black?style=for-the-badge\&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blueviolet?style=for-the-badge\&logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-success?style=for-the-badge)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-red?style=for-the-badge\&logo=scikitlearn)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio%20Project-black?style=for-the-badge\&logo=github)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ---
 
@@ -14,43 +17,77 @@ https://github.com/vyawaha/ai-energy-consumption-forecasting-system.git
 
 This project is an advanced AI-powered energy forecasting system designed to predict future electricity consumption using machine learning and time-series analytics.
 
-The system simulates how smart cities, electricity boards, renewable energy companies, data centers, and manufacturing industries optimize power usage, reduce wastage, and improve energy planning.
+The system simulates how smart cities, electricity boards, renewable energy companies, manufacturing plants, and data centers optimize energy usage, reduce electricity wastage, and improve sustainability.
+
+The project demonstrates real-world forecasting workflows used in climate-tech and smart-grid systems.
 
 ---
 
 # 🚀 Industry Problem Being Solved
 
-Power grids often struggle to balance electricity generation and consumption.
+## ⚡ Unpredictable Energy Demand
+
+Power grids often struggle to balance electricity generation and energy consumption.
 
 This leads to:
 
-- Blackouts
-- Energy wastage
-- High operational cost
-- Poor energy planning
+* Blackouts
+* Energy wastage
+* Increased operational cost
+* Poor renewable energy utilization
+* Carbon emission growth
 
-This AI system forecasts future energy demand to support:
+## ✅ AI-Based Solution
 
-✅ Smart grids
-✅ Smart cities
-✅ Climate-tech systems
-✅ Renewable energy planning
-✅ Sustainable infrastructure
+This forecasting system predicts future electricity demand so organizations can:
+
+* Optimize power generation
+* Reduce electricity wastage
+* Improve smart-grid efficiency
+* Support renewable energy planning
+* Lower operational costs
+* Improve sustainability goals
+
+---
+
+# 🏭 Industry Relevance
+
+This project aligns with real-world use cases in:
+
+* Smart Cities
+* Electricity Boards
+* Renewable Energy Companies
+* Manufacturing Plants
+* Data Centers
+* Smart Buildings
+* Climate-Tech Systems
+
+Companies working in similar domains:
+
+* Google
+* Microsoft
+* Tesla
+* Siemens
+* Schneider Electric
+* IBM
+* Tata Power
+* General Electric
+* NVIDIA
 
 ---
 
 # 🧠 Technologies Used
 
-| Category | Technology |
-|---|---|
-| Programming Language | Python |
-| Data Processing | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Machine Learning | Scikit-learn, XGBoost |
-| Models | Random Forest, XGBoost |
-| Model Serialization | Joblib |
-| IDE | VS Code |
-| Version Control | Git & GitHub |
+| Category             | Technology             |
+| -------------------- | ---------------------- |
+| Programming Language | Python                 |
+| Data Processing      | Pandas, NumPy          |
+| Visualization        | Matplotlib, Seaborn    |
+| Machine Learning     | Scikit-learn, XGBoost  |
+| Models               | Random Forest, XGBoost |
+| Model Serialization  | Joblib                 |
+| IDE                  | VS Code                |
+| Version Control      | Git & GitHub           |
 
 ---
 
@@ -75,123 +112,241 @@ Historical Energy Dataset
             ↓
    Analytics Visualization
             ↓
-     Saved Predictions  
+     Saved Predictions
+```
 
-     📂 Folder Structure
+---
 
-     AI-Energy-Forecasting-System/
+# 📂 Folder Structure
+
+```text
+AI-Energy-Forecasting-System/
 │
 ├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── docs/
+├── images/
 ├── models/
 ├── notebooks/
 ├── outputs/
-├── images/
 ├── src/
-├── docs/
-├── requirements.txt
-├── README.md
+│   ├── data_loader.py
+│   ├── preprocess.py
+│   ├── feature_engineering.py
+│   ├── train_model.py
+│   ├── evaluate.py
+│   ├── forecast.py
+│   └── visualize.py
+│
 ├── .gitignore
-└── main.py
+├── LICENSE
+├── main.py
+├── README.md
+├── requirements.txt
+└── test_model.py
+```
 
-📊 Dataset
+---
 
-Dataset Used: Household Power Consumption Dataset
+# 📊 Dataset
 
-Dataset Link: https://www.kaggle.com/datasets/imtkaggleteam/household-power-consumption
+Dataset Used:
+
+Household Power Consumption Dataset
+
+Dataset Link:
+
+[https://www.kaggle.com/datasets/imtkaggleteam/household-power-consumption](https://www.kaggle.com/datasets/imtkaggleteam/household-power-consumption)
 
 ⚠️ Dataset is not uploaded to GitHub due to GitHub file size limitations.
 
-Place dataset inside:
-data/raw/
+After downloading:
 
-⚙️ Installation
-Create Virtual Environment
-Windows
+1. Rename dataset to:
+
+```text
+energy_consumption.csv
+```
+
+2. Place inside:
+
+```text
+data/raw/
+```
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/vyawaha/ai-energy-consumption-forecasting-system.git
+```
+
+---
+
+## Create Virtual Environment
+
+### Windows
+
+```powershell
 python -m venv venv
 venv\Scripts\activate
+```
 
-Install Dependencies
+### Mac/Linux
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+## Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-▶️ Run Project
+---
+
+# ▶️ Run Project
+
+```bash
 python main.py
+```
 
-📈 Evaluation Metrics
+---
+
+# 📈 Evaluation Metrics
+
 Example output:
-MAE: 0.41
-RMSE: 0.71
-R2 Score: 0.62
 
-# 📊 Project Outputs
+```text
+MAE: 0.4138
+RMSE: 0.7109
+R2 Score: 0.6198
+```
+
+---
+
+# 📊 Visual Results
 
 ## ⚡ Energy Consumption Trend
 
-![Energy Trend](images/energy_trend.png)
+<img src="images/energy_trend.png" width="100%">
 
 ---
 
 ## 📈 Actual vs Predicted Forecast
 
-![Actual vs Predicted](images/actual_vs_predicted.png)
+<img src="images/actual_vs_predicted.png" width="100%">
 
 ---
 
 ## 🏙️ Monthly Consumption Analysis
 
-![Monthly Consumption](images/monthly_consumption.png)
+<img src="images/monthly_consumption.png" width="100%">
 
 ---
 
 ## 📉 Rolling Average Analysis
 
-![Rolling Average](images/rolling_average.png)
+<img src="images/rolling_average.png" width="100%">
 
-💾 Generated Outputs
+---
+
+# 💾 Generated Outputs
 
 The project automatically generates:
 
-Forecast CSV files
-Evaluation metrics
-Trained ML models
-Visualization graphs
-Prediction reports
-🔥 Key Learning Outcomes
+* Forecast CSV files
+* Evaluation metrics
+* Trained ML models
+* Visualization graphs
+* Prediction reports
+
+---
+
+# 🧪 Machine Learning Models Used
+
+| Model                   | Purpose              |
+| ----------------------- | -------------------- |
+| Random Forest Regressor | Baseline forecasting |
+| XGBoost Regressor       | Advanced forecasting |
+
+---
+
+# 🔥 Key Learning Outcomes
 
 This project demonstrates:
 
-Time-Series Forecasting
-Machine Learning Pipelines
-Feature Engineering
-Predictive Analytics
-Energy Informatics
-Real-World AI Workflows
-Model Serialization
-GitHub Engineering
-🌍 Real-World Impact
+* Time-Series Forecasting
+* Feature Engineering
+* Predictive Analytics
+* Machine Learning Pipelines
+* Real-World AI Workflows
+* Climate-Tech Applications
+* Energy Informatics
+* Model Serialization
+* GitHub Project Engineering
+
+---
+
+# 🌍 Real-World Impact
 
 This project demonstrates how AI can:
 
-⚡ Reduce energy wastage
-⚡ Prevent blackouts 
-⚡ Optimize smart grids 
-⚡ Improve sustainability 
-⚡ Support climate-tech infrastructure
+⚡ Reduce electricity wastage
+⚡ Prevent blackouts
+⚡ Improve smart-grid systems
+⚡ Support sustainable infrastructure
+⚡ Optimize energy planning
+⚡ Enable climate-tech innovation
 
-🚀 Future Improvements
+---
+
+# 🚀 Future Improvements
 
 Possible future upgrades:
 
-LSTM Forecasting
-IoT Sensor Integration
-Real-Time Streaming
-Weather Data Integration
-Dashboard Deployment
+* LSTM Forecasting
+* IoT Sensor Integration
+* Real-Time Streaming Data
+* Weather API Integration
+* Dashboard Deployment
+* Hyperparameter Tuning
 
-👨‍💻 Author
-Muktai Vyawahare
+---
+
+# 🔗 Project Repository
+
+GitHub Repository:
+
+[https://github.com/vyawaha/ai-energy-consumption-forecasting-system.git](https://github.com/vyawaha/ai-energy-consumption-forecasting-system.git)
+
+---
+
+# 👨‍💻 Author
+
+## Muktai Vyawahare
 
 BTech CSE Student | AI & Data Science Enthusiast
 
-⭐ Support
+Interested in:
+
+* Machine Learning
+* AI Systems
+* Climate Tech
+* Smart Grid Analytics
+* Predictive Modeling
+
+---
+
+# ⭐ Support
 
 If you like this project, give this repository a star ⭐
