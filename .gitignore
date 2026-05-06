@@ -1,0 +1,19 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Ignore datasets
+data/raw/*.csv
+data/processed/*.csv
+
+# Ignore models
+models/*.pkl
+
+# Ignore outputs
+outputs/*.csv
+outputs/*.txt
