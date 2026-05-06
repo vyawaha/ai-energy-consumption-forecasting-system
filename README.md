@@ -1,5 +1,4 @@
 # ⚡ AI-Powered Smart Energy Forecasting & Consumption Analytics System
-# ⚡ AI-Powered Smart Energy Forecasting & Consumption Analytics System
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
@@ -123,26 +122,29 @@ MAE: 0.41
 RMSE: 0.71
 R2 Score: 0.62
 
-🖼️ Outputs
-Energy Consumption Trend
+# 📊 Project Outputs
 
+## ⚡ Energy Consumption Trend
 
+![Energy Trend](images/energy_trend.png)
 
+---
 
-Actual vs Predicted Forecast
+## 📈 Actual vs Predicted Forecast
 
+![Actual vs Predicted](images/actual_vs_predicted.png)
 
+---
 
+## 🏙️ Monthly Consumption Analysis
 
-Monthly Consumption Analysis
+![Monthly Consumption](images/monthly_consumption.png)
 
+---
 
+## 📉 Rolling Average Analysis
 
-
-Rolling Average Analysis
-
-
-
+![Rolling Average](images/rolling_average.png)
 
 💾 Generated Outputs
 
